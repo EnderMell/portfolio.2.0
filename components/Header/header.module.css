@@ -1,0 +1,112 @@
+.header {
+    background-color: #830f33; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    text-align: center;
+  }
+  
+  .headerContent {
+    background-color: #30000a;
+    padding: 10vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 30px;
+    width: 90%; 
+  }
+  
+  
+  .leftSection {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .introduction h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .introduction p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    line-height: 1.5;
+    max-width: 600px;
+  }
+  
+  
+  .rightSection {
+    text-align: left;
+    flex-shrink: 0;
+    order: 2; 
+  }
+  
+  .profilePhoto {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experienceSection {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .experienceSection h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .experienceSection ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .experienceSection li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 1000px) {
+    .header {
+      padding-top:5vh;
+      padding-bottom:5vh;
+      height:auto;
+    }
+  
+    .headerContent {
+      flex-direction: column; 
+      text-align: center;
+      padding:20px;
+    }
+  
+    .profilePhoto {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 20px; 
+    }
+  
+    .introduction h1 {
+      font-size: 6vw;
+    }
+  
+    .introduction p {
+      font-size: 3vw;
+    }
+  
+    .leftSection {
+      order: 3; 
+    }
+  
+    .rightSection {
+      order: 2; 
+    }
+    .experienceSection {
+      order: 3; 
+      margin-top: 20px; }
+    }

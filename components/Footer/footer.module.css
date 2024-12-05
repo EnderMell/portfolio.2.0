@@ -1,0 +1,38 @@
+/* styles/footer.module.css */
+
+.footer {
+    background-color: #30000a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .socialLinks {
+    margin-bottom: 15px;
+  }
+  
+  .socialLink {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .socialLink:hover {
+    color: #f39c12;
+  }
+  
+  .footerText {
+    font-size: 14px;
+    color: #ccc;
+  }
+  

@@ -1,0 +1,57 @@
+.githubContainer {
+    width: 50vw;
+    margin: 10vh auto; 
+    text-align: center; 
+    background-color: #30000a;
+    padding:5vh;
+    border-radius: 5px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600; 
+    color: white; 
+  }
+  
+  .githubButton {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .imageWrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .githubButton a {
+    display: block;
+    text-decoration: none;
+  }
+  
+  .imageWrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .githubButton:hover .imageWrapper img {
+    transform: scale(1.1); 
+    filter: brightness(0.8);
+  }
+  
+  @media (max-width: 1000px) {
+    .githubContainer {
+      width: 80vw;
+    }
+  
+    .title {
+      font-size: 1.5rem; 
+    }
+  }
+  
