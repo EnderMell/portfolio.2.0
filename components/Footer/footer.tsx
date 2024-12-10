@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <div className={styles.socialLinks}>
-          <h2>Neem contact met me op
+          <h2>Neem contact met mij op
             <br/>Email:
           </h2>
             m.n.tuinbeek05@gmail.com

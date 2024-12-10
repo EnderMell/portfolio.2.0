@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image'; 
 import styles from './header.module.css'; 
+import profilePhoto from '../../public/image/pfp.jpg';
+
 
 const Header = () => {
   return (
@@ -21,7 +23,7 @@ const Header = () => {
         <div className={styles.rightSection}>
           <div className={styles.profile}>
             <Image
-              src="/pfp.jpg" 
+              src={profilePhoto.src}
               width={150}
               height={150}
               alt="Profile Photo"
